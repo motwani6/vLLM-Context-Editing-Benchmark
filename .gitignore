@@ -1,0 +1,35 @@
+# Local environments and caches
+.local_deps/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+# Credentials
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+# Editor and OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+# Large reproducible runtime/model artifacts
+.cache/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+# Original transfer archives remain local; extracted evidence is tracked
+logs/archives/*.zip
+# Keep data, CSV measurements, notebooks, figures, reports and evidence logs tracked.

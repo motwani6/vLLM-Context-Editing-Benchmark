@@ -1,0 +1,10 @@
+{
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "worksheet_size": 20,
+  "target_id": "GSM8K-test-0000",
+  "max_model_len": 32768,
+  "max_output_tokens": 256,
+  "maximum_input_tokens": 16748,
+  "tokenizer_backend": "transformers"
+}

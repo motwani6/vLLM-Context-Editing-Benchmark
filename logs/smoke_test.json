@@ -1,0 +1,7 @@
+{
+  "text": "2 + 2 = 4.",
+  "latency_s": 22.560688049999953,
+  "passed": true,
+  "marker_compliant": false,
+  "validation": "Final marker or exact correct 2+2=4 equation; benchmark scoring remains strict"
+}

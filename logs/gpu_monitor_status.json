@@ -1,0 +1,10 @@
+{
+  "rows": 66,
+  "exit_code": 0,
+  "last": {
+    "repetition": "3",
+    "edit_number": "6",
+    "condition": "naive_append",
+    "latency_s": "52.04191762099981"
+  }
+}

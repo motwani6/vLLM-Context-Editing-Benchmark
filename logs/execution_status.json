@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-24",
+  "colab_cli_version": "0.7.5",
+  "authorized_t4_sessions_created": 1,
+  "initial_compute_units": 0.0,
+  "billing_changes": false,
+  "purchases": false,
+  "inference_executed": true,
+  "measurement_rows": 66,
+  "repetitions": 3,
+  "shutdown": "CLI stop succeeded; server reports no active sessions",
+  "results_sha256": "1a52030deaaa3d9fa82e4fba0f0464128239f2d1bc5dbeb88e377fea71b6e587"
+}

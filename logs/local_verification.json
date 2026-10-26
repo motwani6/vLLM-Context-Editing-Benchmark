@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checks": "PASS: 11 versions, protected target, ten single-span edits, 22 independently recounted prompts, 66 GPU rows, valid notebook, local inference blocked.",
+  "svg_files_validated": 4,
+  "gpu_inference_verified": true,
+  "reason": "Existing completed 66-row run; no GPU executed during verification"
+}

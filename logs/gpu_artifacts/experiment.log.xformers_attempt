@@ -1,0 +1,346 @@
+INFO 10-24 16:01:26 [__init__.py:216] Automatically detected platform cuda.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792857686.740893    4924 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO 10-24 16:01:32 [utils.py:233] non-default args: {'dtype': 'half', 'seed': 42, 'max_model_len': 32768, 'enable_prefix_caching': False, 'gpu_memory_utilization': 0.85, 'max_num_batched_tokens': 32768, 'max_num_seqs': 1, 'disable_log_stats': True, 'revision': '989aa7980e4cf806f80c7fef2b1adb7bc71aa306', 'tokenizer_revision': '989aa7980e4cf806f80c7fef2b1adb7bc71aa306', 'enforce_eager': True, 'enable_chunked_prefill': False, 'model': 'Qwen/Qwen2.5-1.5B-Instruct'}
+INFO 10-24 16:01:33 [model.py:547] Resolved architecture: Qwen2ForCausalLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING 10-24 16:01:33 [model.py:1733] Casting torch.bfloat16 to torch.float16.
+INFO 10-24 16:01:33 [model.py:1510] Using max model len 32768
+INFO 10-24 16:01:35 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=32768.
+INFO 10-24 16:01:35 [__init__.py:381] Cudagraph is disabled under eager mode
+WARNING 10-24 16:01:35 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+INFO 10-24 16:01:44 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:46 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:46 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='Qwen/Qwen2.5-1.5B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-1.5B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=989aa7980e4cf806f80c7fef2b1adb7bc71aa306, tokenizer_revision=989aa7980e4cf806f80c7fef2b1adb7bc71aa306, trust_remote_code=False, dtype=torch.float16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=Qwen/Qwen2.5-1.5B-Instruct, enable_prefix_caching=False, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":null,"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":0,"use_cudagraph":true,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":0,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:01:50 [fa_utils.py:57] Cannot use FA version 2 is not supported due to FA2 is only supported on devices with compute capability >= 8
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:51 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=5007)[0;0m WARNING 10-24 16:01:51 [topk_topp_sampler.py:66] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:51 [gpu_model_runner.py:2602] Starting to load model Qwen/Qwen2.5-1.5B-Instruct...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:52 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:52 [cuda.py:331] Using XFormers backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:53 [weight_utils.py:392] Using model weights format ['*.safetensors']
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:53 [weight_utils.py:450] No model.safetensors.index.json found in remote.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=5007)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:02<00:00,  2.97s/it]
+[1;36m(EngineCore_DP0 pid=5007)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:02<00:00,  2.97s/it]
+[1;36m(EngineCore_DP0 pid=5007)[0;0m 
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:56 [default_loader.py:267] Loading weights took 3.06 seconds
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:01:57 [gpu_model_runner.py:2653] Model loading took 2.8876 GiB and 4.067984 seconds
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:02:03 [gpu_worker.py:298] Available KV cache memory: 7.44 GiB
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:02:04 [kv_cache_utils.py:1087] GPU KV cache size: 278,480 tokens
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:02:04 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 8.50x
+[1;36m(EngineCore_DP0 pid=5007)[0;0m WARNING 10-24 16:02:04 [cudagraph_dispatcher.py:106] cudagraph dispatching keys are not initialized. No cudagraph will be used.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:02:04 [core.py:210] init engine (profile, create kv cache, warmup model) took 6.54 seconds
+[1;36m(EngineCore_DP0 pid=5007)[0;0m INFO 10-24 16:02:04 [__init__.py:381] Cudagraph is disabled under eager mode
+INFO 10-24 16:02:05 [llm.py:306] Supported_tasks: ['generate']
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [dump_input.py:69] Dumping input data for V1 LLM engine (v0.11.0) with config: model='Qwen/Qwen2.5-1.5B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-1.5B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=989aa7980e4cf806f80c7fef2b1adb7bc71aa306, tokenizer_revision=989aa7980e4cf806f80c7fef2b1adb7bc71aa306, trust_remote_code=False, dtype=torch.float16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=Qwen/Qwen2.5-1.5B-Instruct, enable_prefix_caching=False, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":null,"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":0,"use_cudagraph":true,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":0,"local_cache_dir":null}, 
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [dump_input.py:76] Dumping scheduler output for model execution: SchedulerOutput(scheduled_new_reqs=[], scheduled_cached_reqs=CachedRequestData(req_ids=['0'], resumed_from_preemption=[false], new_token_ids=[], new_block_ids=[null], num_computed_tokens=[43]), num_scheduled_tokens={0: 1}, total_num_scheduled_tokens=1, scheduled_spec_decode_tokens={}, scheduled_encoder_inputs={}, num_common_prefix_blocks=[0], finished_req_ids=[], free_encoder_mm_hashes=[], structured_output_request_ids={}, grammar_bitmask=null, kv_connector_metadata=null)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710] EngineCore encountered a fatal error.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710] Traceback (most recent call last):
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 701, in run_engine_core
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     engine_core.run_busy_loop()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 728, in run_busy_loop
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     self._process_engine_step()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 754, in _process_engine_step
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     outputs, model_executed = self.step_fn()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                               ~~~~~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 284, in step
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     model_output = self.execute_model_with_error_logging(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         self.model_executor.execute_model,  # type: ignore
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         scheduler_output)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 270, in execute_model_with_error_logging
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     raise err
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 261, in execute_model_with_error_logging
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return model_fn(scheduler_output)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/abstract.py", line 103, in execute_model
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     output = self.collective_rpc("execute_model",
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                                  args=(scheduler_output, ),
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                                  non_block=non_block)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/executor/uniproc_executor.py", line 83, in collective_rpc
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return [run_method(self.driver_worker, method, args, kwargs)]
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/utils/__init__.py", line 3122, in run_method
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py", line 447, in execute_model
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     output = self.model_runner.execute_model(scheduler_output,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                                              intermediate_tensors)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_model_runner.py", line 2298, in execute_model
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     model_output = self.model(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         input_ids=input_ids,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ...<3 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         **model_kwargs,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 505, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     hidden_states = self.model(input_ids, positions, intermediate_tensors,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                                inputs_embeds)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/compilation/decorators.py", line 225, in __call__
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return self.forward(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 364, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     hidden_states, residual = layer(positions, hidden_states, residual)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 257, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     hidden_states = self.self_attn(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         positions=positions,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         hidden_states=hidden_states,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 187, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     attn_output = self.attn(q, k, v)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/attention/layer.py", line 331, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     torch.ops.vllm.unified_attention_with_output(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         query, key, value, output, self.layer_name)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/torch/_ops.py", line 1243, in __call__
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return self._op(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]            ~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/attention/layer.py", line 614, in unified_attention_with_output
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     self.impl.forward(self,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ~~~~~~~~~~~~~~~~~^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                       query,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                       ^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ...<5 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                       output_scale=output_scale,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                       output_block_scale=output_block_scale)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/attention/backends/xformers.py", line 428, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     num_decode_tokens] = xops.memory_efficient_attention_forward(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         q,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         ^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ...<4 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         scale=self.scale,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         ^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ).view(decode_query.shape)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/__init__.py", line 368, in memory_efficient_attention_forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return _memory_efficient_attention_forward(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         Inputs(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     ...<8 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         op=op,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/__init__.py", line 478, in _memory_efficient_attention_forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     op = _dispatch_fw(inp, False)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/dispatch.py", line 142, in _dispatch_fw
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     return _run_priority_list(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         "memory_efficient_attention_forward",
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         _dispatch_fw_priority_list(inp, needs_gradient),
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]         inp,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/dispatch.py", line 83, in _run_priority_list
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     raise NotImplementedError(msg)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710] NotImplementedError: No operator found for `memory_efficient_attention_forward` with inputs:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]      query       : shape=(1, 1, 2, 6, 128) (torch.float16)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]      key         : shape=(1, 278480, 2, 6, 128) (torch.float16)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]      value       : shape=(1, 278480, 2, 6, 128) (torch.float16)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]      attn_bias   : <class 'xformers.ops.fmha.attn_bias.PagedBlockDiagonalCausalWithOffsetPaddedKeysMask'>
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]      p           : 0.0
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710] `fa2F@2.5.7-pt` is not supported because:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     requires device with capability > (8, 0) but your GPU has capability (7, 5) (too old)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     attn_bias type is <class 'xformers.ops.fmha.attn_bias.PagedBlockDiagonalCausalWithOffsetPaddedKeysMask'>
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710] `triton_splitKF` is not supported because:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     requires device with capability > (8, 0) but your GPU has capability (7, 5) (too old)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     requires NVidia GPU with sm80 minimum compute capacity, e.g., A100/H100/L4
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     For paged attention, page size should be divisible by the block size, but got page_size=16, cls.BLOCK_N=64.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710] `cutlassF-pt` is not supported because:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m ERROR 10-24 16:02:08 [core.py:710]     attn_bias type is <class 'xformers.ops.fmha.attn_bias.PagedBlockDiagonalCausalWithOffsetPaddedKeysMask'>
+Traceback (most recent call last):
+[1;36m(EngineCore_DP0 pid=5007)[0;0m Process EngineCore_DP0:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m Traceback (most recent call last):
+  File "/content/patchkv_application/experiment.py", line 96, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/content/patchkv_application/experiment.py", line 92, in main
+    if a.mode=='run':run(a)
+                     ~~~^^^
+  File "/content/patchkv_application/experiment.py", line 63, in run
+    smoke,seconds=generate(smoke_ids)
+                  ~~~~~~~~^^^^^^^^^^^
+  File "/content/patchkv_application/experiment.py", line 60, in generate
+    result=llm.generate([{'prompt_token_ids':ids}],sampling,use_tqdm=False)[0]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/entrypoints/llm.py", line 401, in generate
+    outputs = self._run_engine(use_tqdm=use_tqdm)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/entrypoints/llm.py", line 1600, in _run_engine
+    step_outputs = self.llm_engine.step()
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/llm_engine.py", line 265, in step
+    outputs = self.engine_core.get_output()
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core_client.py", line 670, in get_output
+    raise self._format_exception(outputs) from None
+vllm.v1.engine.exceptions.EngineDeadError: EngineCore encountered an issue. See stack trace (above) for the root cause.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     self.run()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     self._target(*self._args, **self._kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 712, in run_engine_core
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     raise e
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 701, in run_engine_core
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     engine_core.run_busy_loop()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 728, in run_busy_loop
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     self._process_engine_step()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 754, in _process_engine_step
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     outputs, model_executed = self.step_fn()
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                               ~~~~~~~~~~~~^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 284, in step
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     model_output = self.execute_model_with_error_logging(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         self.model_executor.execute_model,  # type: ignore
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         scheduler_output)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 270, in execute_model_with_error_logging
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     raise err
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 261, in execute_model_with_error_logging
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return model_fn(scheduler_output)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/abstract.py", line 103, in execute_model
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     output = self.collective_rpc("execute_model",
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                                  args=(scheduler_output, ),
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                                  non_block=non_block)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/executor/uniproc_executor.py", line 83, in collective_rpc
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return [run_method(self.driver_worker, method, args, kwargs)]
+[1;36m(EngineCore_DP0 pid=5007)[0;0m             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/utils/__init__.py", line 3122, in run_method
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py", line 447, in execute_model
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     output = self.model_runner.execute_model(scheduler_output,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                                              intermediate_tensors)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return func(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_model_runner.py", line 2298, in execute_model
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     model_output = self.model(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         input_ids=input_ids,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ...<3 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         **model_kwargs,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 505, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     hidden_states = self.model(input_ids, positions, intermediate_tensors,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                                inputs_embeds)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/compilation/decorators.py", line 225, in __call__
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return self.forward(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 364, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     hidden_states, residual = layer(positions, hidden_states, residual)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 257, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     hidden_states = self.self_attn(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         positions=positions,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         hidden_states=hidden_states,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/model_executor/models/qwen2.py", line 187, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     attn_output = self.attn(q, k, v)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return self._call_impl(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return forward_call(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/attention/layer.py", line 331, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     torch.ops.vllm.unified_attention_with_output(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         query, key, value, output, self.layer_name)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/torch/_ops.py", line 1243, in __call__
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return self._op(*args, **kwargs)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m            ~~~~~~~~^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/attention/layer.py", line 614, in unified_attention_with_output
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     self.impl.forward(self,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ~~~~~~~~~~~~~~~~~^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                       query,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                       ^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ...<5 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                       output_scale=output_scale,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                       output_block_scale=output_block_scale)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/attention/backends/xformers.py", line 428, in forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     num_decode_tokens] = xops.memory_efficient_attention_forward(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         q,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         ^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ...<4 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         scale=self.scale,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         ^^^^^^^^^^^^^^^^^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ).view(decode_query.shape)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ^
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/__init__.py", line 368, in memory_efficient_attention_forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return _memory_efficient_attention_forward(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         Inputs(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     ...<8 lines>...
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         op=op,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/__init__.py", line 478, in _memory_efficient_attention_forward
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     op = _dispatch_fw(inp, False)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/dispatch.py", line 142, in _dispatch_fw
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     return _run_priority_list(
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         "memory_efficient_attention_forward",
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         _dispatch_fw_priority_list(inp, needs_gradient),
+[1;36m(EngineCore_DP0 pid=5007)[0;0m         inp,
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     )
+[1;36m(EngineCore_DP0 pid=5007)[0;0m   File "/usr/local/lib/python3.13/dist-packages/xformers/ops/fmha/dispatch.py", line 83, in _run_priority_list
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     raise NotImplementedError(msg)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m NotImplementedError: No operator found for `memory_efficient_attention_forward` with inputs:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m      query       : shape=(1, 1, 2, 6, 128) (torch.float16)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m      key         : shape=(1, 278480, 2, 6, 128) (torch.float16)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m      value       : shape=(1, 278480, 2, 6, 128) (torch.float16)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m      attn_bias   : <class 'xformers.ops.fmha.attn_bias.PagedBlockDiagonalCausalWithOffsetPaddedKeysMask'>
+[1;36m(EngineCore_DP0 pid=5007)[0;0m      p           : 0.0
+[1;36m(EngineCore_DP0 pid=5007)[0;0m `fa2F@2.5.7-pt` is not supported because:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     requires device with capability > (8, 0) but your GPU has capability (7, 5) (too old)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     attn_bias type is <class 'xformers.ops.fmha.attn_bias.PagedBlockDiagonalCausalWithOffsetPaddedKeysMask'>
+[1;36m(EngineCore_DP0 pid=5007)[0;0m `triton_splitKF` is not supported because:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     requires device with capability > (8, 0) but your GPU has capability (7, 5) (too old)
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     requires NVidia GPU with sm80 minimum compute capacity, e.g., A100/H100/L4
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     For paged attention, page size should be divisible by the block size, but got page_size=16, cls.BLOCK_N=64.
+[1;36m(EngineCore_DP0 pid=5007)[0;0m `cutlassF-pt` is not supported because:
+[1;36m(EngineCore_DP0 pid=5007)[0;0m     attn_bias type is <class 'xformers.ops.fmha.attn_bias.PagedBlockDiagonalCausalWithOffsetPaddedKeysMask'>

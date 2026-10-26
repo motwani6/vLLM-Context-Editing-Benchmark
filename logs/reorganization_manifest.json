@@ -1,0 +1,489 @@
+[
+  {
+    "original": ".gitignore",
+    "path": ".gitignore",
+    "sha256": "8dd0fdcf7996734d634518f7916b90afc3159991e3451b8c7a9f81b63f4b141d",
+    "size": 35,
+    "original_copy": "logs/originals/.gitignore"
+  },
+  {
+    "original": "analyze.py",
+    "path": "src/analyze.py",
+    "sha256": "6795fe25f3a937ee1b879ba471039af77c0fb1453b43160f8dfa14a92fb84cb4",
+    "size": 10933,
+    "original_copy": "logs/originals/analyze.py"
+  },
+  {
+    "original": "application_proposal.md",
+    "path": "docs/application_proposal.md",
+    "sha256": "e4cee69cdc6a1ba2d3ec2324ab05b3d0d8bb44d39e0cfa088b93b0c1942546bd",
+    "size": 728
+  },
+  {
+    "original": "colab_sessions.txt",
+    "path": "logs/colab_sessions.txt",
+    "sha256": "aefa0e1ca151329ccdc4747dad93c0a646227ec61290ba44864e32afff9a68c1",
+    "size": 48
+  },
+  {
+    "original": "colab_sessions_after_gpu.txt",
+    "path": "logs/colab_sessions_after_gpu.txt",
+    "sha256": "a5dbcbdaffe00c8095a0f633b49ebc594cb40ab5b2ea250f8711d7fe2c5d897f",
+    "size": 45
+  },
+  {
+    "original": "colab_usage.txt",
+    "path": "logs/colab_usage.txt",
+    "sha256": "20edcf096063b5d913e373c874471693ac81ecd048a9215953b8f12fecd4949c",
+    "size": 84
+  },
+  {
+    "original": "comparison.csv",
+    "path": "results/comparison.csv",
+    "sha256": "6bdce0a473c8b6b614c6488f76dd977a0ee59ec1ca076185e64869f982486be7",
+    "size": 1331
+  },
+  {
+    "original": "context_counts.csv",
+    "path": "results/context_counts.csv",
+    "sha256": "b999798ad9dfe97f92b466ede8e1bedc4c4915e1d5812133496bf761dafa97d7",
+    "size": 812
+  },
+  {
+    "original": "environment_local_audit.txt",
+    "path": "logs/environment_local_audit.txt",
+    "sha256": "be41ae0fc84fa59dd2ebddbc27f2ccce474e0968a997a18ef04fd0952a23cd1b",
+    "size": 57
+  },
+  {
+    "original": "environment_remote.txt",
+    "path": "logs/environment_remote.txt",
+    "sha256": "a80b408dd5e817e8f8a594a36bfdfd2276a2c5e616042f20aefc7772b90cb259",
+    "size": 14952
+  },
+  {
+    "original": "execution_status.json",
+    "path": "logs/execution_status.json",
+    "sha256": "814a372735fa02da3483c436600914f0ad2ce805c43bf5b79d168d6c3726aa50",
+    "size": 426
+  },
+  {
+    "original": "experiment.log",
+    "path": "logs/experiment.log",
+    "sha256": "90d17f56fd1a0733378cce8109b83b33cf0f21bac4523f7c742ea1123ece8bb6",
+    "size": 11697
+  },
+  {
+    "original": "experiment.py",
+    "path": "src/experiment.py",
+    "sha256": "32111dfe193bbe39435f81ba57ab5be1c78a9541ac16020b283ff9a9ee3ad265",
+    "size": 8682,
+    "original_copy": "logs/originals/experiment.py"
+  },
+  {
+    "original": "experiment_exit.json",
+    "path": "logs/experiment_exit.json",
+    "sha256": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "size": 16
+  },
+  {
+    "original": "finalize_gpu_deliverables.py",
+    "path": "docs/scripts/finalize_gpu_deliverables.py",
+    "sha256": "057f25f8117f4dca7f4d3b5a6074042611022bcec4cee5275f27a519aa93ff77",
+    "size": 5159,
+    "original_copy": "logs/originals/finalize_gpu_deliverables.py"
+  },
+  {
+    "original": "finish_gpu_session.py",
+    "path": "docs/scripts/finish_gpu_session.py",
+    "sha256": "7e4b13c027d48ba95b11afb4b3cf4f8649fb00f175ba98405758ba04aceecc34",
+    "size": 3279,
+    "original_copy": "logs/originals/finish_gpu_session.py"
+  },
+  {
+    "original": "gpu_monitor_status.json",
+    "path": "logs/gpu_monitor_status.json",
+    "sha256": "fc7d66d37ed9abb5c1580f9c7d58699dcd6436cebc7af3fe5fa122ce719bbde5",
+    "size": 177
+  },
+  {
+    "original": "gpu_results.zip",
+    "path": "logs/archives/gpu_results.zip",
+    "sha256": "ac68d8874d0c09d61597fadf4f6e22ebecaccadfe21664335e9918eae10887ca",
+    "size": 321535
+  },
+  {
+    "original": "gpu_shutdown.txt",
+    "path": "logs/gpu_shutdown.txt",
+    "sha256": "445741ff47b6a7a8f9f36a1b1c381bf394b8a2f9925f11cbd33d81b309abbf03",
+    "size": 82
+  },
+  {
+    "original": "gpu_source.zip",
+    "path": "logs/archives/gpu_source.zip",
+    "sha256": "c60a0d16dcb7e9cd733c23881a90372b7f40d2c5a2b4ccf0af2c0fc24061b751",
+    "size": 268969
+  },
+  {
+    "original": "gpu_verification.json",
+    "path": "logs/gpu_verification.json",
+    "sha256": "70033f50c4a351e61a9984e449a0b99a8239c6add253f4da97c9429921e4f04c",
+    "size": 290
+  },
+  {
+    "original": "latency_summary.csv",
+    "path": "results/latency_summary.csv",
+    "sha256": "194043b4a884f88c4de258894d7a8f2626c8808d48f516fa0fd0883f2d2ce04a",
+    "size": 1535
+  },
+  {
+    "original": "math_app.py",
+    "path": "src/math_app.py",
+    "sha256": "cde148e00a724fca902b2bf9dbd6d9c1dc00f63a4d9b531300501f56798d4867",
+    "size": 3821,
+    "original_copy": "logs/originals/math_app.py"
+  },
+  {
+    "original": "math_patchkv_benchmark.ipynb",
+    "path": "notebooks/math_patchkv_benchmark.ipynb",
+    "sha256": "ea503a58588b8734cf0971a79f414fad59314c4476dc51142babe39d90d716ad",
+    "size": 48814,
+    "original_copy": "logs/originals/math_patchkv_benchmark.ipynb"
+  },
+  {
+    "original": "package_deliverables.py",
+    "path": "docs/scripts/package_deliverables.py",
+    "sha256": "2aa78a6cf4fac613228cf44687b868359fd51e4b619973ccd3e2b34e776c7379",
+    "size": 9346,
+    "original_copy": "logs/originals/package_deliverables.py"
+  },
+  {
+    "original": "preflight.json",
+    "path": "logs/preflight.json",
+    "sha256": "8299724c7e5f376ea8109c72f64da4d8319756425d3b2041f1f83eba6437575f",
+    "size": 316
+  },
+  {
+    "original": "README.md",
+    "path": "README.md",
+    "sha256": "64b5279bf84c7b999ef360faecde0b39a2d7a5443e49beac445d44e27a983964",
+    "size": 5800,
+    "original_copy": "logs/originals/README.md"
+  },
+  {
+    "original": "remote_verification.json",
+    "path": "logs/remote_verification.json",
+    "sha256": "1424a22b4810d75778b6654f1e0c99daaa92257b49fde06c7eeac64a4b1566de",
+    "size": 147
+  },
+  {
+    "original": "report.md",
+    "path": "docs/report.md",
+    "sha256": "72b82f4cc0cccf5f7efd5afd59ad7896d9255f76d30b51979238aadcb55ab20a",
+    "size": 10403,
+    "original_copy": "logs/originals/report.md"
+  },
+  {
+    "original": "requirements.txt",
+    "path": "requirements.txt",
+    "sha256": "3b9eb2b2e847201924f8ff6ac41cf743d8b12a2d2d4b4945d1b842958f5f39bf",
+    "size": 137
+  },
+  {
+    "original": "results.csv",
+    "path": "results/results.csv",
+    "sha256": "1a52030deaaa3d9fa82e4fba0f0464128239f2d1bc5dbeb88e377fea71b6e587",
+    "size": 57174
+  },
+  {
+    "original": "run_metadata.json",
+    "path": "logs/run_metadata.json",
+    "sha256": "c4ae5947a4906331407a8becc05146e701aa7c702e53f741dec39a6d1eca3471",
+    "size": 1221
+  },
+  {
+    "original": "smoke_test.json",
+    "path": "logs/smoke_test.json",
+    "sha256": "93ee8d4cf6bed43b4fa0e0ccd9b966026b20b8e5e8f2d412bfb9cde332d1ff03",
+    "size": 206
+  },
+  {
+    "original": "summarize_gpu.py",
+    "path": "src/summarize_gpu.py",
+    "sha256": "bba52f1d843147b5066a4a442ca4e07fefccdd25dedf4d5579a35fb1d2367b8e",
+    "size": 8006,
+    "original_copy": "logs/originals/summarize_gpu.py"
+  },
+  {
+    "original": "validate_artifacts.py",
+    "path": "src/validate_artifacts.py",
+    "sha256": "0d57221a103f964107efecc89a39b328d7a4f62ba89708f6ccb651a12dfc6b3d",
+    "size": 561,
+    "original_copy": "logs/originals/validate_artifacts.py"
+  },
+  {
+    "original": "verification.json",
+    "path": "logs/verification.json",
+    "sha256": "8cd466a80200a149da58f495b480080867b9f647350cea5b3ade731b0348ad49",
+    "size": 318
+  },
+  {
+    "original": "verify.py",
+    "path": "src/verify.py",
+    "sha256": "6378300ef13957c29b50a135b9e4139cc8dc0ce8df4f21548f0585b521ded32f",
+    "size": 3130,
+    "original_copy": "logs/originals/verify.py"
+  },
+  {
+    "original": "data/gsm8k_test.json",
+    "path": "data/gsm8k_test.json",
+    "sha256": "70ff2a0b5b83378cc7d3bfd47fca7326028aa2aedfdedbfe7fa15a6cacb3b0b5",
+    "size": 865091
+  },
+  {
+    "original": "data/model_revision.json",
+    "path": "data/model_revision.json",
+    "sha256": "443f5f6ab55f247dd3119408aaf328e2f0faf95ef5880de529f7133a54969185",
+    "size": 104
+  },
+  {
+    "original": "data/tokenizer.json",
+    "path": "data/tokenizer.json",
+    "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "size": 7031645
+  },
+  {
+    "original": "data/tokenizer_config.json",
+    "path": "data/tokenizer_config.json",
+    "sha256": "fa2a40a9d8c8c4bb7f25ab726eb78ec9cbaaef96d1fa26f1d7f5615e886449a8",
+    "size": 7511
+  },
+  {
+    "original": "data/worksheet_versions.json",
+    "path": "data/worksheet_versions.json",
+    "sha256": "7997e780eae9cd8de75180bdf37c379857255485fb30cd49e23e7863bf618331",
+    "size": 145494
+  },
+  {
+    "original": "gpu_artifacts/analyze.py",
+    "path": "logs/gpu_artifacts/analyze.py",
+    "sha256": "ce7cb07d8b0153cd81504351c07cc652e4545027032465514fb26d10af5de095",
+    "size": 10525
+  },
+  {
+    "original": "gpu_artifacts/benchmark.pid",
+    "path": "logs/gpu_artifacts/benchmark.pid",
+    "sha256": "d12a4891fbf81cfb0fb5383b313e4fb499ca245463748fd4b509ce0359e44625",
+    "size": 4
+  },
+  {
+    "original": "gpu_artifacts/comparison.csv",
+    "path": "logs/gpu_artifacts/comparison.csv",
+    "sha256": "6bdce0a473c8b6b614c6488f76dd977a0ee59ec1ca076185e64869f982486be7",
+    "size": 1331
+  },
+  {
+    "original": "gpu_artifacts/context_counts.csv",
+    "path": "logs/gpu_artifacts/context_counts.csv",
+    "sha256": "b999798ad9dfe97f92b466ede8e1bedc4c4915e1d5812133496bf761dafa97d7",
+    "size": 812
+  },
+  {
+    "original": "gpu_artifacts/environment_remote.txt",
+    "path": "logs/gpu_artifacts/environment_remote.txt",
+    "sha256": "a80b408dd5e817e8f8a594a36bfdfd2276a2c5e616042f20aefc7772b90cb259",
+    "size": 14952
+  },
+  {
+    "original": "gpu_artifacts/experiment.log",
+    "path": "logs/gpu_artifacts/experiment.log",
+    "sha256": "90d17f56fd1a0733378cce8109b83b33cf0f21bac4523f7c742ea1123ece8bb6",
+    "size": 11697
+  },
+  {
+    "original": "gpu_artifacts/experiment.log.flex_attention_attempt",
+    "path": "logs/gpu_artifacts/experiment.log.flex_attention_attempt",
+    "sha256": "af1b3a39522f736ff4f927fcca9afd02df810b771361420f44ba8da89b28393e",
+    "size": 45043
+  },
+  {
+    "original": "gpu_artifacts/experiment.log.xformers_attempt",
+    "path": "logs/gpu_artifacts/experiment.log.xformers_attempt",
+    "sha256": "d1eb60aadfd8f97e16501b4329b5394e3c14d8d49f64e87b611e0a251752ed13",
+    "size": 42810
+  },
+  {
+    "original": "gpu_artifacts/experiment.py",
+    "path": "logs/gpu_artifacts/experiment.py",
+    "sha256": "32111dfe193bbe39435f81ba57ab5be1c78a9541ac16020b283ff9a9ee3ad265",
+    "size": 8682
+  },
+  {
+    "original": "gpu_artifacts/experiment_exit.json",
+    "path": "logs/gpu_artifacts/experiment_exit.json",
+    "sha256": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "size": 16
+  },
+  {
+    "original": "gpu_artifacts/experiment_exit.json.flex_attention_attempt",
+    "path": "logs/gpu_artifacts/experiment_exit.json.flex_attention_attempt",
+    "sha256": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+    "size": 16
+  },
+  {
+    "original": "gpu_artifacts/experiment_exit.json.xformers_attempt",
+    "path": "logs/gpu_artifacts/experiment_exit.json.xformers_attempt",
+    "sha256": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+    "size": 16
+  },
+  {
+    "original": "gpu_artifacts/experiment_initial.log",
+    "path": "logs/gpu_artifacts/experiment_initial.log",
+    "sha256": "625cd9cadcda87ec2316663737cca7da0ccb8f506dcec207d9662b46deebf5dd",
+    "size": 7968
+  },
+  {
+    "original": "gpu_artifacts/experiment_initial_exit.json",
+    "path": "logs/gpu_artifacts/experiment_initial_exit.json",
+    "sha256": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+    "size": 16
+  },
+  {
+    "original": "gpu_artifacts/install.log",
+    "path": "logs/gpu_artifacts/install.log",
+    "sha256": "b7da2a3ddcb43f820d0c64ac9a4f493766c86a83de87f90b84a620c8ad5aaec1",
+    "size": 43947
+  },
+  {
+    "original": "gpu_artifacts/install.pid",
+    "path": "logs/gpu_artifacts/install.pid",
+    "sha256": "41966e55400c17d811391ad507c6af707e42e5528f54cb9734571def64c0e97c",
+    "size": 4
+  },
+  {
+    "original": "gpu_artifacts/math_app.py",
+    "path": "logs/gpu_artifacts/math_app.py",
+    "sha256": "cde148e00a724fca902b2bf9dbd6d9c1dc00f63a4d9b531300501f56798d4867",
+    "size": 3821
+  },
+  {
+    "original": "gpu_artifacts/preflight.json",
+    "path": "logs/gpu_artifacts/preflight.json",
+    "sha256": "8299724c7e5f376ea8109c72f64da4d8319756425d3b2041f1f83eba6437575f",
+    "size": 316
+  },
+  {
+    "original": "gpu_artifacts/remote_verification.json",
+    "path": "logs/gpu_artifacts/remote_verification.json",
+    "sha256": "1424a22b4810d75778b6654f1e0c99daaa92257b49fde06c7eeac64a4b1566de",
+    "size": 147
+  },
+  {
+    "original": "gpu_artifacts/report.md",
+    "path": "logs/gpu_artifacts/report.md",
+    "sha256": "db055f0c96f68f1dfb03a9c52e57af228a257b97a5263b17f9c6263ea5d989c5",
+    "size": 5781
+  },
+  {
+    "original": "gpu_artifacts/requirements.txt",
+    "path": "logs/gpu_artifacts/requirements.txt",
+    "sha256": "3b9eb2b2e847201924f8ff6ac41cf743d8b12a2d2d4b4945d1b842958f5f39bf",
+    "size": 137
+  },
+  {
+    "original": "gpu_artifacts/results.csv",
+    "path": "logs/gpu_artifacts/results.csv",
+    "sha256": "1a52030deaaa3d9fa82e4fba0f0464128239f2d1bc5dbeb88e377fea71b6e587",
+    "size": 57174
+  },
+  {
+    "original": "gpu_artifacts/run_metadata.json",
+    "path": "logs/gpu_artifacts/run_metadata.json",
+    "sha256": "c4ae5947a4906331407a8becc05146e701aa7c702e53f741dec39a6d1eca3471",
+    "size": 1221
+  },
+  {
+    "original": "gpu_artifacts/smoke_test.json",
+    "path": "logs/gpu_artifacts/smoke_test.json",
+    "sha256": "93ee8d4cf6bed43b4fa0e0ccd9b966026b20b8e5e8f2d412bfb9cde332d1ff03",
+    "size": 206
+  },
+  {
+    "original": "gpu_artifacts/smoke_test.json.flex_attention_attempt",
+    "path": "logs/gpu_artifacts/smoke_test.json.flex_attention_attempt",
+    "sha256": "d2231a78f15a0385f4a6062e30ee87e56ebd55e5c00c45f64effdf0b15c8e983",
+    "size": 206
+  },
+  {
+    "original": "gpu_artifacts/smoke_test_initial.json",
+    "path": "logs/gpu_artifacts/smoke_test_initial.json",
+    "sha256": "57cffbb3c5490aeddfe8f40a4f4d49988cdf22322bbb2db741eabf102edd6f30",
+    "size": 80
+  },
+  {
+    "original": "plots/context_tokens.svg",
+    "path": "figures/context_tokens.svg",
+    "sha256": "faaa59cdaf1cfe6100ee14982e54871060aeea5196a94936fb85f7fbc019ffac",
+    "size": 1919
+  },
+  {
+    "original": "plots/inference_latency.svg",
+    "path": "figures/inference_latency.svg",
+    "sha256": "cb3cefcd4bfef23dac335323819eee7ee91e6e927357f767ae37d54644941279",
+    "size": 1904
+  },
+  {
+    "original": "plots/latency_comparison.svg",
+    "path": "figures/latency_comparison.svg",
+    "sha256": "c06dbe071e15e14fec300263a2bf8f81688719c62d134d2cbc1b6ad68bdb062a",
+    "size": 1912
+  },
+  {
+    "original": "plots/token_growth.svg",
+    "path": "figures/token_growth.svg",
+    "sha256": "a279c1853c49acc7b0ed476d7ba7f84201c72792d9a3044daa17ac619eec944d",
+    "size": 1914
+  },
+  {
+    "original": "gpu_artifacts/data/gsm8k_test.json",
+    "path": "logs/gpu_artifacts/data/gsm8k_test.json",
+    "sha256": "70ff2a0b5b83378cc7d3bfd47fca7326028aa2aedfdedbfe7fa15a6cacb3b0b5",
+    "size": 865091
+  },
+  {
+    "original": "gpu_artifacts/data/model_revision.json",
+    "path": "logs/gpu_artifacts/data/model_revision.json",
+    "sha256": "443f5f6ab55f247dd3119408aaf328e2f0faf95ef5880de529f7133a54969185",
+    "size": 104
+  },
+  {
+    "original": "gpu_artifacts/data/worksheet_versions.json",
+    "path": "logs/gpu_artifacts/data/worksheet_versions.json",
+    "sha256": "7997e780eae9cd8de75180bdf37c379857255485fb30cd49e23e7863bf618331",
+    "size": 145494
+  },
+  {
+    "original": "gpu_artifacts/plots/context_tokens.svg",
+    "path": "logs/gpu_artifacts/plots/context_tokens.svg",
+    "sha256": "818b7d700a68e7e3f66de33cd61f077665c637bcd7fdf91aec341c6d4a9f1cc9",
+    "size": 1892
+  },
+  {
+    "original": "gpu_artifacts/plots/inference_latency.svg",
+    "path": "logs/gpu_artifacts/plots/inference_latency.svg",
+    "sha256": "9c0a3be9e2cf7da537b3d6368bf937b3c899c2d59e6d2f6ce2540ebf90ab2a74",
+    "size": 1877
+  },
+  {
+    "original": "gpu_artifacts/plots/latency_comparison.svg",
+    "path": "logs/gpu_artifacts/plots/latency_comparison.svg",
+    "sha256": "a98179558fe78dca09c5364bdeb75b6b66c6dc49cd9eb8fecd2a64937e6a0469",
+    "size": 1885
+  },
+  {
+    "original": "gpu_artifacts/plots/token_growth.svg",
+    "path": "logs/gpu_artifacts/plots/token_growth.svg",
+    "sha256": "21f64dfdb93794c73014f0329b21c486553ddcfe69dbb4b48182eb0d4c1ef2ed",
+    "size": 1887
+  }
+]

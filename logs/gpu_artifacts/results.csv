@@ -1,0 +1,1326 @@
+repetition,condition,edit_number,input_tokens,context_growth_ratio,latency_s,output_tokens,ttft_s,prefill_latency_s,correct,parsed_answer,gpu_memory_used_mib,finish_reason,output_text,prompt_sha256
+1,latest,7,1589,0.9987429289754871,9.620963103999884,226,,,False,9,5587.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",dcaf894cb1fede9896b2d1f78872778c2b165a29baab193939d93aa198d14616
+1,naive_append,7,12201,7.6687617850408545,53.69623643299997,240,,,True,18,5587.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet makes and then determine how much she earns from selling them.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, calculate the total number of eggs eaten for breakfast:
+\[ 3 \text{ eggs/day} \]
+
+Then, calculate the total number of eggs used for muffins:
+\[ 4 \text{ eggs/day} \]
+
+Now, subtract the eggs eaten for breakfast and muffins from the total number of eggs laid:
+\[ 16 - 3 - 4 = 9 \text{ eggs/day} \]
+
+Finally, calculate the earnings from selling the remaining eggs:
+\[ 9 \text{ eggs/day} \times \$2/\text{egg} = \$18/\text{day} \]
+
+Therefore, Janet makes \$18 every day at the farmers' market.
+
+#### 18",18ebde76d7a893df6703e331e754fa2dac555475c1770fe017824d757194d0bd
+1,naive_append,3,6140,3.8592080452545567,21.550299416999906,183,,,False,9,5587.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",5244da93448d488ef876cf81dba8d8714d6265ead2d3c214bb95fd3a4a0701a6
+1,latest,3,1590,0.9993714644877436,9.409872377000056,226,,,False,9,5587.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",bb362510fb511058f0dda1466fab6eb60d55a411017920b744096c309ef5964e
+1,naive_append,2,4624,2.90634820867379,16.020185316999914,183,,,False,9,5587.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",83a2d26bff95bacb221824e74970ac5249a8ab5f685513eeb12c2668d5cb5e8d
+1,latest,2,1590,0.9993714644877436,9.47605648700005,226,,,False,9,4507.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",2dc7b49257971c0f8633cfafeac43bc79a6beff9c8cb4f4e2f0eb49a84d1f20f
+1,naive_append,8,13716,8.620993086109365,43.69892646299991,132,,,True,18,5393.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells each day.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast.
+3. She bakes muffins for her friends with 4 eggs.
+
+So, the number of eggs sold each day is:
+\[ 16 - 3 - 4 = 9 \text{ eggs} \]
+
+Therefore, Janet makes $2 per egg sold, so her daily earnings are:
+\[ 9 \text{ eggs} \times \$2/\text{egg} = \$18 \]
+
+#### 18",0b42bf63776e23ec8f0e1b59ad04aef95d0ad358d9ec48973f211c2fca3119bc
+1,latest,8,1589,0.9987429289754871,9.520388956000033,226,,,False,9,4507.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",8540b3155e81754f43c74ede8cd6762fbb96972968eeb6db7260aaefc708a56c
+1,naive_append,5,9171,5.764299182903834,33.611652451000054,187,,,False,9,5035.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+The answer is: #### 9",b79d5830129df339ac79583a4683b345fc61d058862d929c5fdd2ab0992f7f0e
+1,latest,5,1589,0.9987429289754871,9.804173593999849,226,,,False,9,5035.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",7c286b5a289e8d0a3f32f6725af97295c14816da8fe0e740adb8e7096f241463
+1,naive_append,6,10686,6.7165304839723445,44.724177571000155,224,,,False,26,5403.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet makes from her ducks and then determine how much she earns from selling them.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, calculate the total number of eggs eaten per day:
+\[ 3 \text{ eggs/day} \]
+
+Then, calculate the number of eggs left after breakfast and muffins:
+\[ 16 - 3 = 13 \text{ eggs/day} \]
+
+Now, calculate the total number of eggs left after muffins:
+\[ 13 \text{ eggs/day} \]
+
+Finally, calculate the total earnings per day:
+\[ 13 \text{ eggs/day} \times 2 \text{ dollars/egg} = 26 \text{ dollars/day} \]
+
+#### 26",66aa2eecae1935c6ee58e7aebe4666cd6a7949d8703e3931bfb7956619c40ad1
+1,latest,6,1589,0.9987429289754871,9.277940823000108,226,,,False,9,5403.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",c634a77c6d0d7e0c3f081642d1ff0232d322c0e8621728f184124864f7a5a4bf
+1,naive_append,9,15231,9.573224387177875,68.2732101879999,224,,,False,29.30,5925.0,stop,"To find out how much Janet makes every day at the farmers' market, we need to calculate the total number of eggs she sells and then multiply by the price per egg.
+
+1. Calculate the total number of eggs Janet sells:
+   - Eggs per day: 16
+   - Eggs per week: 16 * 7 = 112
+   - Eggs per month: 112 * 4 = 448
+   - Eggs per year: 448 * 12 = 5376
+
+2. Calculate the total earnings:
+   - Price per egg: $2
+   - Total earnings per year: 5376 * $2 = $10752
+
+3. Calculate the earnings per day:
+   - Total earnings per year: $10752
+   - Number of days in a year: 365
+   - Earnings per day: $10752 / 365 ≈ $29.30
+
+#### 29.30",b97a0738b67e0955c3c2531dd21ab6f6e6ac0c1f5015524fac434bebbef6754f
+1,latest,9,1589,0.9987429289754871,9.957961415,226,,,False,9,5925.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",6580564d0d3594bcdefc98a4d9c1c992a476bd62c310a3f0d49a417e720c60c6
+1,naive_append,4,7656,4.812067881835324,25.742643224999938,171,,,False,224,5925.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats three eggs for breakfast every morning, so she eats \(3 \times 16 = 48\) eggs per day.
+3. She bakes muffins for her friends every day with four eggs, so she bakes \(4 \times 16 = 64\) eggs per day.
+4. The total number of eggs she sells per day is \(48 + 64 = 112\) eggs.
+
+Therefore, Janet makes $2 per fresh duck egg, so she makes \(112 \times 2 = 224\) dollars every day at the farmers' market.
+
+#### 224",3e4396728e56c506183e08c4ed2ac974e14c51f1bb4567d59611f7405619831c
+1,latest,4,1590,0.9993714644877436,9.715215616000023,226,,,False,9,5925.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",fdde8c18a00cc09663d4c0b956b6b23c1343384f7bb073267711472f898e2708
+1,latest,0,1591,1.0,9.492434981000088,226,,,False,9,4507.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",a3686c2e72cbff34180a7640353bdedbea3ca85e18702732b31bfd8ba4fd4015
+1,naive_append,0,1591,1.0,9.456072720999828,226,,,False,9,4507.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",a3686c2e72cbff34180a7640353bdedbea3ca85e18702732b31bfd8ba4fd4015
+1,naive_append,1,3108,1.9534883720930232,12.681586396000057,187,,,False,9,4615.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",cce52942cb8a3f91275f94c16a9e25fc2be1bbf9999641a09acdaf1930d69221
+1,latest,1,1591,1.0,9.436477819999936,226,,,False,9,4617.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",132eb952ec3fd25d074ccf5834027fb3e38847672799e5c4bc094a7531db2325
+1,latest,10,1591,1.0,9.829551131000017,226,,,False,9,4617.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",fe08a83c47a0ee39c38d86e90ece178481e2a6d5e116f7ef486bf44faa49a6eb
+1,naive_append,10,16748,10.526712759270898,79.45365215000015,225,,,False,29.23,5503.0,stop,"To find out how much in dollars Janet makes every day at the farmers' market, we need to calculate the total number of eggs she sells and then multiply by the price per egg.
+
+1. Calculate the total number of eggs Janet sells:
+   - Eggs per day: 16
+   - Eggs per week: 16 * 7 = 112
+   - Eggs per month: 112 * 4 = 448
+   - Eggs per year: 448 * 12 = 5376
+
+2. Calculate the total earnings:
+   - Price per egg: $2
+   - Total earnings per year: 5376 * $2 = $10752
+
+3. Calculate the earnings per day:
+   - Total earnings per year: $10752
+   - Total days in a year: 365
+   - Earnings per day: $10752 / 365 ≈ $29.23
+
+#### 29.23",0c34e6f1452a4b6a43903c2cd6a2bd009482cbc7d909fa37a5fdfae4b726c7b4
+2,latest,1,1591,1.0,9.627063809999981,226,,,False,9,5505.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",132eb952ec3fd25d074ccf5834027fb3e38847672799e5c4bc094a7531db2325
+2,naive_append,1,3108,1.9534883720930232,13.122719840999935,187,,,False,9,4591.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",cce52942cb8a3f91275f94c16a9e25fc2be1bbf9999641a09acdaf1930d69221
+2,naive_append,6,10686,6.7165304839723445,46.233311388000175,224,,,False,26,5095.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet makes from her ducks and then determine how much she earns from selling them.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, calculate the total number of eggs eaten per day:
+\[ 3 \text{ eggs/day} \]
+
+Then, calculate the number of eggs left after breakfast and muffins:
+\[ 16 - 3 = 13 \text{ eggs/day} \]
+
+Now, calculate the total number of eggs left after muffins:
+\[ 13 \text{ eggs/day} \]
+
+Finally, calculate the total earnings per day:
+\[ 13 \text{ eggs/day} \times 2 \text{ dollars/egg} = 26 \text{ dollars/day} \]
+
+#### 26",66aa2eecae1935c6ee58e7aebe4666cd6a7949d8703e3931bfb7956619c40ad1
+2,latest,6,1589,0.9987429289754871,9.538939064000033,226,,,False,9,5095.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",c634a77c6d0d7e0c3f081642d1ff0232d322c0e8621728f184124864f7a5a4bf
+2,naive_append,8,13716,8.620993086109365,45.1915492170001,132,,,True,18,5303.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells each day.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast.
+3. She bakes muffins for her friends with 4 eggs.
+
+So, the number of eggs sold each day is:
+\[ 16 - 3 - 4 = 9 \text{ eggs} \]
+
+Therefore, Janet makes $2 per egg sold, so her daily earnings are:
+\[ 9 \text{ eggs} \times \$2/\text{egg} = \$18 \]
+
+#### 18",0b42bf63776e23ec8f0e1b59ad04aef95d0ad358d9ec48973f211c2fca3119bc
+2,latest,8,1589,0.9987429289754871,9.967367937000063,226,,,False,9,5303.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",8540b3155e81754f43c74ede8cd6762fbb96972968eeb6db7260aaefc708a56c
+2,latest,10,1591,1.0,9.654726488999813,226,,,False,9,5305.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",fe08a83c47a0ee39c38d86e90ece178481e2a6d5e116f7ef486bf44faa49a6eb
+2,naive_append,10,16748,10.526712759270898,81.24015206700005,225,,,False,29.23,5879.0,stop,"To find out how much in dollars Janet makes every day at the farmers' market, we need to calculate the total number of eggs she sells and then multiply by the price per egg.
+
+1. Calculate the total number of eggs Janet sells:
+   - Eggs per day: 16
+   - Eggs per week: 16 * 7 = 112
+   - Eggs per month: 112 * 4 = 448
+   - Eggs per year: 448 * 12 = 5376
+
+2. Calculate the total earnings:
+   - Price per egg: $2
+   - Total earnings per year: 5376 * $2 = $10752
+
+3. Calculate the earnings per day:
+   - Total earnings per year: $10752
+   - Total days in a year: 365
+   - Earnings per day: $10752 / 365 ≈ $29.23
+
+#### 29.23",0c34e6f1452a4b6a43903c2cd6a2bd009482cbc7d909fa37a5fdfae4b726c7b4
+2,naive_append,7,12201,7.6687617850408545,56.631093586000134,240,,,True,18,5195.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet makes and then determine how much she earns from selling them.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, calculate the total number of eggs eaten for breakfast:
+\[ 3 \text{ eggs/day} \]
+
+Then, calculate the total number of eggs used for muffins:
+\[ 4 \text{ eggs/day} \]
+
+Now, subtract the eggs eaten for breakfast and muffins from the total number of eggs laid:
+\[ 16 - 3 - 4 = 9 \text{ eggs/day} \]
+
+Finally, calculate the earnings from selling the remaining eggs:
+\[ 9 \text{ eggs/day} \times \$2/\text{egg} = \$18/\text{day} \]
+
+Therefore, Janet makes \$18 every day at the farmers' market.
+
+#### 18",18ebde76d7a893df6703e331e754fa2dac555475c1770fe017824d757194d0bd
+2,latest,7,1589,0.9987429289754871,10.187579645999904,226,,,False,9,5197.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",dcaf894cb1fede9896b2d1f78872778c2b165a29baab193939d93aa198d14616
+2,latest,3,1590,0.9993714644877436,9.799667422999846,226,,,False,9,5197.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",bb362510fb511058f0dda1466fab6eb60d55a411017920b744096c309ef5964e
+2,naive_append,3,6140,3.8592080452545567,23.158289892000084,183,,,False,9,4787.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",5244da93448d488ef876cf81dba8d8714d6265ead2d3c214bb95fd3a4a0701a6
+2,latest,5,1589,0.9987429289754871,10.038064190000114,226,,,False,9,4787.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",7c286b5a289e8d0a3f32f6725af97295c14816da8fe0e740adb8e7096f241463
+2,naive_append,5,9171,5.764299182903834,36.55634273800024,191,,,False,9,4995.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+The answer is: #### 9",b79d5830129df339ac79583a4683b345fc61d058862d929c5fdd2ab0992f7f0e
+2,latest,2,1590,0.9993714644877436,9.566989589000059,226,,,False,9,4995.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",2dc7b49257971c0f8633cfafeac43bc79a6beff9c8cb4f4e2f0eb49a84d1f20f
+2,naive_append,2,4624,2.90634820867379,17.900206861999777,183,,,False,9,4697.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",83a2d26bff95bacb221824e74970ac5249a8ab5f685513eeb12c2668d5cb5e8d
+2,naive_append,0,1591,1.0,9.669906399999945,226,,,False,9,4697.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",a3686c2e72cbff34180a7640353bdedbea3ca85e18702732b31bfd8ba4fd4015
+2,latest,0,1591,1.0,9.458535219000169,226,,,False,9,4699.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",a3686c2e72cbff34180a7640353bdedbea3ca85e18702732b31bfd8ba4fd4015
+2,latest,4,1590,0.9993714644877436,10.495497130999865,226,,,False,9,4699.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",fdde8c18a00cc09663d4c0b956b6b23c1343384f7bb073267711472f898e2708
+2,naive_append,4,7656,4.812067881835324,27.271758457000033,171,,,False,224,4895.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats three eggs for breakfast every morning, so she eats \(3 \times 16 = 48\) eggs per day.
+3. She bakes muffins for her friends every day with four eggs, so she bakes \(4 \times 16 = 64\) eggs per day.
+4. The total number of eggs she sells per day is \(48 + 64 = 112\) eggs.
+
+Therefore, Janet makes $2 per fresh duck egg, so she makes \(112 \times 2 = 224\) dollars every day at the farmers' market.
+
+#### 224",3e4396728e56c506183e08c4ed2ac974e14c51f1bb4567d59611f7405619831c
+2,naive_append,9,15231,9.573224387177875,74.55703425599995,224,,,False,29.30,5405.0,stop,"To find out how much Janet makes every day at the farmers' market, we need to calculate the total number of eggs she sells and then multiply by the price per egg.
+
+1. Calculate the total number of eggs Janet sells:
+   - Eggs per day: 16
+   - Eggs per week: 16 * 7 = 112
+   - Eggs per month: 112 * 4 = 448
+   - Eggs per year: 448 * 12 = 5376
+
+2. Calculate the total earnings:
+   - Price per egg: $2
+   - Total earnings per year: 5376 * $2 = $10752
+
+3. Calculate the earnings per day:
+   - Total earnings per year: $10752
+   - Number of days in a year: 365
+   - Earnings per day: $10752 / 365 ≈ $29.30
+
+#### 29.30",b97a0738b67e0955c3c2531dd21ab6f6e6ac0c1f5015524fac434bebbef6754f
+2,latest,9,1589,0.9987429289754871,9.885475663999841,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",6580564d0d3594bcdefc98a4d9c1c992a476bd62c310a3f0d49a417e720c60c6
+3,naive_append,9,15231,9.573224387177875,72.13709149499982,224,,,False,29.30,5407.0,stop,"To find out how much Janet makes every day at the farmers' market, we need to calculate the total number of eggs she sells and then multiply by the price per egg.
+
+1. Calculate the total number of eggs Janet sells:
+   - Eggs per day: 16
+   - Eggs per week: 16 * 7 = 112
+   - Eggs per month: 112 * 4 = 448
+   - Eggs per year: 448 * 12 = 5376
+
+2. Calculate the total earnings:
+   - Price per egg: $2
+   - Total earnings per year: 5376 * $2 = $10752
+
+3. Calculate the earnings per day:
+   - Total earnings per year: $10752
+   - Number of days in a year: 365
+   - Earnings per day: $10752 / 365 ≈ $29.30
+
+#### 29.30",b97a0738b67e0955c3c2531dd21ab6f6e6ac0c1f5015524fac434bebbef6754f
+3,latest,9,1589,0.9987429289754871,9.854741860999638,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",6580564d0d3594bcdefc98a4d9c1c992a476bd62c310a3f0d49a417e720c60c6
+3,naive_append,0,1591,1.0,9.867084189999787,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",a3686c2e72cbff34180a7640353bdedbea3ca85e18702732b31bfd8ba4fd4015
+3,latest,0,1591,1.0,10.186558970000078,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",a3686c2e72cbff34180a7640353bdedbea3ca85e18702732b31bfd8ba4fd4015
+3,naive_append,3,6140,3.8592080452545567,23.84616452499995,183,,,False,9,5407.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",5244da93448d488ef876cf81dba8d8714d6265ead2d3c214bb95fd3a4a0701a6
+3,latest,3,1590,0.9993714644877436,10.402683606999744,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",bb362510fb511058f0dda1466fab6eb60d55a411017920b744096c309ef5964e
+3,latest,2,1590,0.9993714644877436,10.467051768999681,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",2dc7b49257971c0f8633cfafeac43bc79a6beff9c8cb4f4e2f0eb49a84d1f20f
+3,naive_append,2,4624,2.90634820867379,18.46418887000027,183,,,False,9,5407.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+#### 9",83a2d26bff95bacb221824e74970ac5249a8ab5f685513eeb12c2668d5cb5e8d
+3,naive_append,7,12201,7.6687617850408545,58.20012295600009,240,,,True,18,5407.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet makes and then determine how much she earns from selling them.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, calculate the total number of eggs eaten for breakfast:
+\[ 3 \text{ eggs/day} \]
+
+Then, calculate the total number of eggs used for muffins:
+\[ 4 \text{ eggs/day} \]
+
+Now, subtract the eggs eaten for breakfast and muffins from the total number of eggs laid:
+\[ 16 - 3 - 4 = 9 \text{ eggs/day} \]
+
+Finally, calculate the earnings from selling the remaining eggs:
+\[ 9 \text{ eggs/day} \times \$2/\text{egg} = \$18/\text{day} \]
+
+Therefore, Janet makes \$18 every day at the farmers' market.
+
+#### 18",18ebde76d7a893df6703e331e754fa2dac555475c1770fe017824d757194d0bd
+3,latest,7,1589,0.9987429289754871,9.94088977299998,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",dcaf894cb1fede9896b2d1f78872778c2b165a29baab193939d93aa198d14616
+3,naive_append,5,9171,5.764299182903834,38.63710085499997,191,,,False,9,5407.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+So, Janet sells 9 eggs per day at the farmers' market.
+
+The answer is: #### 9",b79d5830129df339ac79583a4683b345fc61d058862d929c5fdd2ab0992f7f0e
+3,latest,5,1589,0.9987429289754871,10.164418762000423,226,,,False,9,5407.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",7c286b5a289e8d0a3f32f6725af97295c14816da8fe0e740adb8e7096f241463
+3,naive_append,10,16748,10.526712759270898,84.02471210700014,225,,,False,29.23,5981.0,stop,"To find out how much in dollars Janet makes every day at the farmers' market, we need to calculate the total number of eggs she sells and then multiply by the price per egg.
+
+1. Calculate the total number of eggs Janet sells:
+   - Eggs per day: 16
+   - Eggs per week: 16 * 7 = 112
+   - Eggs per month: 112 * 4 = 448
+   - Eggs per year: 448 * 12 = 5376
+
+2. Calculate the total earnings:
+   - Price per egg: $2
+   - Total earnings per year: 5376 * $2 = $10752
+
+3. Calculate the earnings per day:
+   - Total earnings per year: $10752
+   - Total days in a year: 365
+   - Earnings per day: $10752 / 365 ≈ $29.23
+
+#### 29.23",0c34e6f1452a4b6a43903c2cd6a2bd009482cbc7d909fa37a5fdfae4b726c7b4
+3,latest,10,1591,1.0,10.904562001000158,256,,,False,,5981.0,length,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+Therefore, Janet makes $2 per fresh duck egg, so the total earnings per day are:
+\[ 9 \text{ eggs/day} \times 2 \text{ dollars/egg} = 18 \text{ dollars/day}",fe08a83c47a0ee39c38d86e90ece178481e2a6d5e116f7ef486bf44faa49a6eb
+3,latest,4,1590,0.9993714644877436,9.860555423999813,226,,,False,9,5981.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",fdde8c18a00cc09663d4c0b956b6b23c1343384f7bb073267711472f898e2708
+3,naive_append,4,7656,4.812067881835324,28.98157770800026,171,,,False,224,5981.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats three eggs for breakfast every morning, so she eats \(3 \times 16 = 48\) eggs per day.
+3. She bakes muffins for her friends every day with four eggs, so she bakes \(4 \times 16 = 64\) eggs per day.
+4. The total number of eggs she sells per day is \(48 + 64 = 112\) eggs.
+
+Therefore, Janet makes $2 per fresh duck egg, so she makes \(112 \times 2 = 224\) dollars every day at the farmers' market.
+
+#### 224",3e4396728e56c506183e08c4ed2ac974e14c51f1bb4567d59611f7405619831c
+3,latest,8,1589,0.9987429289754871,10.472224437999557,226,,,False,9,5981.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",8540b3155e81754f43c74ede8cd6762fbb96972968eeb6db7260aaefc708a56c
+3,naive_append,8,13716,8.620993086109365,49.11992449200034,132,,,True,18,5981.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells each day.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast.
+3. She bakes muffins for her friends with 4 eggs.
+
+So, the number of eggs sold each day is:
+\[ 16 - 3 - 4 = 9 \text{ eggs} \]
+
+Therefore, Janet makes $2 per egg sold, so her daily earnings are:
+\[ 9 \text{ eggs} \times \$2/\text{egg} = \$18 \]
+
+#### 18",0b42bf63776e23ec8f0e1b59ad04aef95d0ad358d9ec48973f211c2fca3119bc
+3,latest,1,1591,1.0,10.891003678999823,226,,,False,9,5981.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",132eb952ec3fd25d074ccf5834027fb3e38847672799e5c4bc094a7531db2325
+3,naive_append,1,3108,1.9534883720930232,15.246713432999968,216,,,False,,5981.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the total number of eggs sold at the farmers' market per day:
+\[ 9 \text{ eggs/day} \]
+
+#### Answer:
+9",cce52942cb8a3f91275f94c16a9e25fc2be1bbf9999641a09acdaf1930d69221
+3,latest,6,1589,0.9987429289754871,9.812403578000158,226,,,False,9,5981.0,stop,"To solve this problem, we need to calculate how many eggs Janet sells at the farmers' market.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends every day with 4 eggs.
+4. The remainder of the eggs are sold at the farmers' market.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, subtract the eggs eaten for breakfast:
+\[ 16 \text{ eggs/day} - 3 \text{ eggs/day} = 13 \text{ eggs/day} \]
+
+Then, subtract the eggs used for baking muffins:
+\[ 13 \text{ eggs/day} - 4 \text{ eggs/day} = 9 \text{ eggs/day} \]
+
+Finally, calculate the number of eggs sold at the farmers' market:
+\[ 9 \text{ eggs/day} \]
+
+So, Janet makes 9 eggs per day at the farmers' market.
+
+#### 9",c634a77c6d0d7e0c3f081642d1ff0232d322c0e8621728f184124864f7a5a4bf
+3,naive_append,6,10686,6.7165304839723445,52.04191762099981,224,,,False,26,5981.0,stop,"To solve this problem, we need to calculate the total number of eggs Janet makes from her ducks and then determine how much she earns from selling them.
+
+1. Janet's ducks lay 16 eggs per day.
+2. She eats 3 eggs for breakfast every morning.
+3. She bakes muffins for her friends with 4 eggs each day.
+
+First, calculate the total number of eggs laid per day:
+\[ 16 \text{ eggs/day} \]
+
+Next, calculate the total number of eggs eaten per day:
+\[ 3 \text{ eggs/day} \]
+
+Then, calculate the number of eggs left after breakfast and muffins:
+\[ 16 - 3 = 13 \text{ eggs/day} \]
+
+Now, calculate the total number of eggs left after muffins:
+\[ 13 \text{ eggs/day} \]
+
+Finally, calculate the total earnings per day:
+\[ 13 \text{ eggs/day} \times 2 \text{ dollars/egg} = 26 \text{ dollars/day} \]
+
+#### 26",66aa2eecae1935c6ee58e7aebe4666cd6a7949d8703e3931bfb7956619c40ad1

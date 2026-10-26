@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500">
+<rect width="880" height="500" fill="white"/>
+<text x="440" y="30" text-anchor="middle" font-size="20">Latest worksheet versus naive append</text>
+<path d="M90 65 V410 H830" fill="none" stroke="black"/>
+<text x="440" y="475" text-anchor="middle">Edit number</text>
+<text transform="translate(22 250) rotate(-90)" text-anchor="middle">Mean seconds</text>
+<text x="82" y="414.0" text-anchor="end">0.0</text>
+<text x="82" y="345.0" text-anchor="end">17.6</text>
+<text x="82" y="276.0" text-anchor="end">35.2</text>
+<text x="82" y="207.0" text-anchor="end">52.9</text>
+<text x="82" y="138.0" text-anchor="end">70.5</text>
+<text x="82" y="69.0" text-anchor="end">88.1</text>
+<text x="90" y="435" text-anchor="middle">0</text>
+<text x="164" y="435" text-anchor="middle">1</text>
+<text x="238" y="435" text-anchor="middle">2</text>
+<text x="312" y="435" text-anchor="middle">3</text>
+<text x="386" y="435" text-anchor="middle">4</text>
+<text x="460" y="435" text-anchor="middle">5</text>
+<text x="534" y="435" text-anchor="middle">6</text>
+<text x="608" y="435" text-anchor="middle">7</text>
+<text x="682" y="435" text-anchor="middle">8</text>
+<text x="756" y="435" text-anchor="middle">9</text>
+<text x="830" y="435" text-anchor="middle">10</text>
+<polyline points="90.00,371.97 164.00,370.90 238.00,371.48 312.00,371.35 386.00,370.75 460.00,370.83 534.00,372.63 608.00,371.17 682.00,370.89 756.00,371.23 830.00,370.33" stroke="#2471a3" stroke-width="2.5" fill="none"/>
+<text x="110" y="60" fill="#2471a3">latest</text>
+<polyline points="90.00,372.15 164.00,356.41 238.00,341.62 312.00,320.51 386.00,302.97 460.00,267.97 534.00,223.34 608.00,190.01 682.00,229.85 756.00,129.39 830.00,90.56" stroke="#c0392b" stroke-width="2.5" fill="none"/>
+<text x="390" y="60" fill="#c0392b">naive_append</text>
+</svg>

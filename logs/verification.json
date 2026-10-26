@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "request_rows": 66,
+  "complete_condition_edit_repetition_grid": true,
+  "smoke_test_passed": true,
+  "prompt_budgets_checked": true,
+  "correctness_recomputed": true,
+  "results_sha256": "1a52030deaaa3d9fa82e4fba0f0464128239f2d1bc5dbeb88e377fea71b6e587",
+  "session_stopped": true
+}

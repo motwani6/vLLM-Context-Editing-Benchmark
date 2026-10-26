@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "inference_executed": true,
+  "configuration": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "tokenizer_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "dtype": "half",
+    "max_model_len": 32768,
+    "enable_prefix_caching": false,
+    "enable_chunked_prefill": false,
+    "max_num_batched_tokens": 32768,
+    "max_num_seqs": 1,
+    "gpu_memory_utilization": 0.85,
+    "enforce_eager": true,
+    "seed": 42,
+    "block_size": 16,
+    "num_gpu_blocks_override": 2048
+  },
+  "repetitions": 3,
+  "gpu": "Tesla T4",
+  "sampling": {
+    "temperature": 0,
+    "top_p": 1,
+    "max_tokens": 256,
+    "seed": 42
+  },
+  "ttft": "Engine metrics only when populated; otherwise null",
+  "prefill_latency": "Not directly measurable; null",
+  "gpu_memory": "Device-wide post-request nvidia-smi snapshot, includes reserved KV cache",
+  "packages": {
+    "vllm": "0.11.0",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "tokenizers": "0.22.2",
+    "pyarrow": "23.0.1"
+  },
+  "effective_engine_settings": {
+    "attention_backend": "FLEX_ATTENTION",
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": false
+  }
+}

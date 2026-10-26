@@ -1,0 +1,111 @@
+INFO 10-24 16:03:07 [__init__.py:216] Automatically detected platform cuda.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792857787.528043    5448 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO 10-24 16:03:13 [utils.py:233] non-default args: {'dtype': 'half', 'seed': 42, 'max_model_len': 32768, 'block_size': 16, 'enable_prefix_caching': False, 'gpu_memory_utilization': 0.85, 'max_num_batched_tokens': 32768, 'max_num_seqs': 1, 'disable_log_stats': True, 'revision': '989aa7980e4cf806f80c7fef2b1adb7bc71aa306', 'tokenizer_revision': '989aa7980e4cf806f80c7fef2b1adb7bc71aa306', 'enforce_eager': True, 'num_gpu_blocks_override': 2048, 'enable_chunked_prefill': False, 'model': 'Qwen/Qwen2.5-1.5B-Instruct'}
+INFO 10-24 16:03:13 [model.py:547] Resolved architecture: Qwen2ForCausalLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING 10-24 16:03:13 [model.py:1733] Casting torch.bfloat16 to torch.float16.
+INFO 10-24 16:03:13 [model.py:1510] Using max model len 32768
+INFO 10-24 16:03:15 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=32768.
+INFO 10-24 16:03:15 [__init__.py:381] Cudagraph is disabled under eager mode
+WARNING 10-24 16:03:16 [__init__.py:3036] We must use the `spawn` multiprocessing start method. Overriding VLLM_WORKER_MULTIPROC_METHOD to 'spawn'. See https://docs.vllm.ai/en/latest/usage/troubleshooting.html#python-multiprocessing for more information. Reasons: CUDA is initialized
+INFO 10-24 16:03:25 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:27 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:27 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='Qwen/Qwen2.5-1.5B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-1.5B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=989aa7980e4cf806f80c7fef2b1adb7bc71aa306, tokenizer_revision=989aa7980e4cf806f80c7fef2b1adb7bc71aa306, trust_remote_code=False, dtype=torch.float16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=Qwen/Qwen2.5-1.5B-Instruct, enable_prefix_caching=False, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":null,"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":0,"use_cudagraph":true,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":0,"local_cache_dir":null}
+[1;36m(EngineCore_DP0 pid=5523)[0;0m ERROR 10-24 16:03:30 [fa_utils.py:57] Cannot use FA version 2 is not supported due to FA2 is only supported on devices with compute capability >= 8
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:31 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=5523)[0;0m WARNING 10-24 16:03:31 [topk_topp_sampler.py:66] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:31 [gpu_model_runner.py:2602] Starting to load model Qwen/Qwen2.5-1.5B-Instruct...
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:32 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:32 [cuda.py:319] Using FlexAttention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:32 [weight_utils.py:392] Using model weights format ['*.safetensors']
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:33 [weight_utils.py:450] No model.safetensors.index.json found in remote.
+[1;36m(EngineCore_DP0 pid=5523)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=5523)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:03<00:00,  3.07s/it]
+[1;36m(EngineCore_DP0 pid=5523)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:03<00:00,  3.07s/it]
+[1;36m(EngineCore_DP0 pid=5523)[0;0m 
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:36 [default_loader.py:267] Loading weights took 3.16 seconds
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:37 [gpu_model_runner.py:2653] Model loading took 2.8876 GiB and 3.829623 seconds
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:43 [gpu_worker.py:298] Available KV cache memory: 7.44 GiB
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:43 [kv_cache_utils.py:805] Overriding num_gpu_blocks=17405 with num_gpu_blocks_override=2048
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:43 [kv_cache_utils.py:1087] GPU KV cache size: 32,768 tokens
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:43 [kv_cache_utils.py:1091] Maximum concurrency for 32,768 tokens per request: 1.00x
+[1;36m(EngineCore_DP0 pid=5523)[0;0m WARNING 10-24 16:03:43 [cudagraph_dispatcher.py:106] cudagraph dispatching keys are not initialized. No cudagraph will be used.
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:43 [core.py:210] init engine (profile, create kv cache, warmup model) took 6.50 seconds
+[1;36m(EngineCore_DP0 pid=5523)[0;0m INFO 10-24 16:03:44 [__init__.py:381] Cudagraph is disabled under eager mode
+INFO 10-24 16:03:45 [llm.py:306] Supported_tasks: ['generate']
+rep=1 edit=7 latest: tokens=1589, seconds=9.621, correct=False
+rep=1 edit=7 naive_append: tokens=12201, seconds=53.696, correct=True
+rep=1 edit=3 naive_append: tokens=6140, seconds=21.550, correct=False
+rep=1 edit=3 latest: tokens=1590, seconds=9.410, correct=False
+rep=1 edit=2 naive_append: tokens=4624, seconds=16.020, correct=False
+rep=1 edit=2 latest: tokens=1590, seconds=9.476, correct=False
+rep=1 edit=8 naive_append: tokens=13716, seconds=43.699, correct=True
+rep=1 edit=8 latest: tokens=1589, seconds=9.520, correct=False
+rep=1 edit=5 naive_append: tokens=9171, seconds=33.612, correct=False
+rep=1 edit=5 latest: tokens=1589, seconds=9.804, correct=False
+rep=1 edit=6 naive_append: tokens=10686, seconds=44.724, correct=False
+rep=1 edit=6 latest: tokens=1589, seconds=9.278, correct=False
+rep=1 edit=9 naive_append: tokens=15231, seconds=68.273, correct=False
+rep=1 edit=9 latest: tokens=1589, seconds=9.958, correct=False
+rep=1 edit=4 naive_append: tokens=7656, seconds=25.743, correct=False
+rep=1 edit=4 latest: tokens=1590, seconds=9.715, correct=False
+rep=1 edit=0 latest: tokens=1591, seconds=9.492, correct=False
+rep=1 edit=0 naive_append: tokens=1591, seconds=9.456, correct=False
+rep=1 edit=1 naive_append: tokens=3108, seconds=12.682, correct=False
+rep=1 edit=1 latest: tokens=1591, seconds=9.436, correct=False
+rep=1 edit=10 latest: tokens=1591, seconds=9.830, correct=False
+rep=1 edit=10 naive_append: tokens=16748, seconds=79.454, correct=False
+rep=2 edit=1 latest: tokens=1591, seconds=9.627, correct=False
+rep=2 edit=1 naive_append: tokens=3108, seconds=13.123, correct=False
+rep=2 edit=6 naive_append: tokens=10686, seconds=46.233, correct=False
+rep=2 edit=6 latest: tokens=1589, seconds=9.539, correct=False
+rep=2 edit=8 naive_append: tokens=13716, seconds=45.192, correct=True
+rep=2 edit=8 latest: tokens=1589, seconds=9.967, correct=False
+rep=2 edit=10 latest: tokens=1591, seconds=9.655, correct=False
+rep=2 edit=10 naive_append: tokens=16748, seconds=81.240, correct=False
+rep=2 edit=7 naive_append: tokens=12201, seconds=56.631, correct=True
+rep=2 edit=7 latest: tokens=1589, seconds=10.188, correct=False
+rep=2 edit=3 latest: tokens=1590, seconds=9.800, correct=False
+rep=2 edit=3 naive_append: tokens=6140, seconds=23.158, correct=False
+rep=2 edit=5 latest: tokens=1589, seconds=10.038, correct=False
+rep=2 edit=5 naive_append: tokens=9171, seconds=36.556, correct=False
+rep=2 edit=2 latest: tokens=1590, seconds=9.567, correct=False
+rep=2 edit=2 naive_append: tokens=4624, seconds=17.900, correct=False
+rep=2 edit=0 naive_append: tokens=1591, seconds=9.670, correct=False
+rep=2 edit=0 latest: tokens=1591, seconds=9.459, correct=False
+rep=2 edit=4 latest: tokens=1590, seconds=10.495, correct=False
+rep=2 edit=4 naive_append: tokens=7656, seconds=27.272, correct=False
+rep=2 edit=9 naive_append: tokens=15231, seconds=74.557, correct=False
+rep=2 edit=9 latest: tokens=1589, seconds=9.885, correct=False
+rep=3 edit=9 naive_append: tokens=15231, seconds=72.137, correct=False
+rep=3 edit=9 latest: tokens=1589, seconds=9.855, correct=False
+rep=3 edit=0 naive_append: tokens=1591, seconds=9.867, correct=False
+rep=3 edit=0 latest: tokens=1591, seconds=10.187, correct=False
+rep=3 edit=3 naive_append: tokens=6140, seconds=23.846, correct=False
+rep=3 edit=3 latest: tokens=1590, seconds=10.403, correct=False
+rep=3 edit=2 latest: tokens=1590, seconds=10.467, correct=False
+rep=3 edit=2 naive_append: tokens=4624, seconds=18.464, correct=False
+rep=3 edit=7 naive_append: tokens=12201, seconds=58.200, correct=True
+rep=3 edit=7 latest: tokens=1589, seconds=9.941, correct=False
+rep=3 edit=5 naive_append: tokens=9171, seconds=38.637, correct=False
+rep=3 edit=5 latest: tokens=1589, seconds=10.164, correct=False
+rep=3 edit=10 naive_append: tokens=16748, seconds=84.025, correct=False
+rep=3 edit=10 latest: tokens=1591, seconds=10.905, correct=False
+rep=3 edit=4 latest: tokens=1590, seconds=9.861, correct=False
+rep=3 edit=4 naive_append: tokens=7656, seconds=28.982, correct=False
+rep=3 edit=8 latest: tokens=1589, seconds=10.472, correct=False
+rep=3 edit=8 naive_append: tokens=13716, seconds=49.120, correct=True
+rep=3 edit=1 latest: tokens=1591, seconds=10.891, correct=False
+rep=3 edit=1 naive_append: tokens=3108, seconds=15.247, correct=False
+rep=3 edit=6 latest: tokens=1589, seconds=9.812, correct=False
+rep=3 edit=6 naive_append: tokens=10686, seconds=52.042, correct=False
+[rank0]:[W1024 16:32:47.763976015 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Analysis: 22 real token counts, 66 GPU measurements.

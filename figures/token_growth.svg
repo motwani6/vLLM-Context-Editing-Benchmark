@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500">
+<rect width="880" height="500" fill="white"/>
+<text x="440" y="30" text-anchor="middle" font-size="20">Token growth relative to version 0</text>
+<path d="M90 65 V410 H830" fill="none" stroke="black"/>
+<text x="440" y="475" text-anchor="middle">Edit number</text>
+<text transform="translate(22 250) rotate(-90)" text-anchor="middle">Context growth ratio</text>
+<text x="82" y="414.0" text-anchor="end">0.0</text>
+<text x="82" y="345.0" text-anchor="end">2.3</text>
+<text x="82" y="276.0" text-anchor="end">4.5</text>
+<text x="82" y="207.0" text-anchor="end">6.8</text>
+<text x="82" y="138.0" text-anchor="end">9.1</text>
+<text x="82" y="69.0" text-anchor="end">11.4</text>
+<text x="90" y="435" text-anchor="middle">0</text>
+<text x="164" y="435" text-anchor="middle">1</text>
+<text x="238" y="435" text-anchor="middle">2</text>
+<text x="312" y="435" text-anchor="middle">3</text>
+<text x="386" y="435" text-anchor="middle">4</text>
+<text x="460" y="435" text-anchor="middle">5</text>
+<text x="534" y="435" text-anchor="middle">6</text>
+<text x="608" y="435" text-anchor="middle">7</text>
+<text x="682" y="435" text-anchor="middle">8</text>
+<text x="756" y="435" text-anchor="middle">9</text>
+<text x="830" y="435" text-anchor="middle">10</text>
+<polyline points="90.00,379.65 164.00,379.65 238.00,379.67 312.00,379.67 386.00,379.67 460.00,379.69 534.00,379.69 608.00,379.69 682.00,379.69 756.00,379.69 830.00,379.65" stroke="#2471a3" stroke-width="2.5" fill="none"/>
+<text x="110" y="60" fill="#2471a3">latest</text>
+<polyline points="90.00,379.65 164.00,350.72 238.00,321.80 312.00,292.89 386.00,263.97 460.00,235.08 534.00,206.18 608.00,177.28 682.00,148.39 756.00,119.49 830.00,90.56" stroke="#c0392b" stroke-width="2.5" fill="none"/>
+<text x="390" y="60" fill="#c0392b">naive_append</text>
+</svg>

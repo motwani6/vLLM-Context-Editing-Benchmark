@@ -1,0 +1,13 @@
+{
+  "original_files_preserved": 79,
+  "original_zip_integrity": "passed",
+  "measurement_rows": 66,
+  "results_sha256": "1a52030deaaa3d9fa82e4fba0f0464128239f2d1bc5dbeb88e377fea71b6e587",
+  "notebook_embedded_sources": "match active source",
+  "documentation_links": "passed",
+  "isolated_analysis": "all CSVs and SVGs reproduced byte-for-byte",
+  "outside_repository_invocation": "passed",
+  "gpu_experiments_run": false,
+  "dependencies_installed": false,
+  "status": "passed"
+}
